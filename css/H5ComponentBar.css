@@ -1,0 +1,13 @@
+/* 柱图表组件对象 */
+.h5_component_bar{}
+.h5_component_bar .line{height: 15px;line-height: 15px;font-size: 12px;margin-bottom: 15px;}
+.h5_component_bar .name{float: left;width: 60px;height: 15px;line-height: 15px;color: #000;text-align: left;}
+.h5_component_bar .rate{height: 15px;margin-left: 5px;float: left;}
+.h5_component_bar .bg{width: 0;height: 100%;background-color: #99c0ff;border-radius: 3px;}
+.h5_component_bar .per{width: 20px;height: 15px;line-height: 15px;margin-left: 5px;float: left;opacity: 0;}
+
+.h5_component_bar_onload .rate .bg{transition: all 1s .5s;width: 100%;}
+.h5_component_bar_onleave .rate .bg{width: 0;}
+
+.h5_component_bar_onload .per{transition: all 1s 1.5s;opacity: 1;}
+.h5_component_bar_onleave .per{opacity: 0;}

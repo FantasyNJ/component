@@ -1,0 +1,13 @@
+body{width: 100%;height: 100%;position: fixed;}
+#loading{position: relative;width: 60px;height: 60px;margin: -30px auto;top: 50%;text-align: center;}
+#loading .round1, #loading .round2{width: 100%;height: 100%;border-radius: 50%;position: absolute;background-color: #0062e0;}
+#loading .round1{-webkit-animation: ld 2s infinite ease-in-out 0s;}
+#loading .round2{z-index: 10;opacity: .6;
+    -webkit-animation: ld 2s infinite ease-in-out 1s;
+}
+#loading #rate{position: relative;top: 60px;}
+
+@-webkit-keyframes ld {
+    0%{ transform: scale(1); }
+    50%{ transform: scale(0); }
+}

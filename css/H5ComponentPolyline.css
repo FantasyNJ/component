@@ -1,0 +1,7 @@
+/* 折线图表组件对象 */
+.h5_component_polyline{}
+.h5_component_polyline canvas{position: absolute;left: 0;top: 0;width: 100%;height: 100%;}  /*用canvas做动画，会进行分层，要用到z-index*/
+.h5_component_polyline .text{position: absolute;height: 20px;line-height: 20px;font-size: 12px;text-align: center;bottom: -20px;transform: scale(.8);transition: all 1s 1.5s;}
+
+.h5_component_polyline_onload .text{opacity: 1;}
+.h5_component_polyline_onleave .text{opacity: 0;}

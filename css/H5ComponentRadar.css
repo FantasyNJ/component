@@ -1,0 +1,4 @@
+/* 雷达图表组件对象 */
+.h5_component_radar{}
+.h5_component_radar canvas{position: absolute;left: 0;top: 0;width: 100%;height: 100%;}  /*用canvas做动画，会进行分层，要用到z-index*/
+.h5_component_radar .text{position: absolute;font-size: 12px;opacity: 0;}
