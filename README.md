@@ -4,4 +4,4 @@
 使用组件化构建各个图标  
 使用CSS3和Canvas绘制图标  
 ## 在线地址
-demo.ayabala.com/component
+[demo.ayabala.com/component](demo.ayabala.com/component)
